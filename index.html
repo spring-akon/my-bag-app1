@@ -29,7 +29,7 @@
             <div class="bg-blue-500/10 border border-blue-500/20 rounded-2xl p-4 flex items-center gap-3">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-blue-400"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
                 <p class="text-[10px] text-slate-400 font-bold uppercase tracking-wider leading-tight">
-                    此版本發送欄位為 <span class="text-white underline">DATA0</span>，請確保 n8n Analyze 節點設定一致。
+                    此版本發送欄位為 <span class="text-white underline">data0</span>，請確保 n8n Analyze 節點設定一致。
                 </p>
             </div>
 
@@ -96,7 +96,7 @@
             sendBtn.disabled = true;
 
             const formData = new FormData();
-            // 對齊 n8n 截圖中的 DATA0
+            // 對齊 n8n 截圖中的 data0
             formData.append('DATA0', fileInput.files[0]);
 
             try {
